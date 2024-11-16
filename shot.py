@@ -19,7 +19,7 @@ class Shot(CircleShape):
         if (dist <= self.radius+circle_obj.radius):
             print("collision")
             self.kill()
-            circle_obj.kill()
+            circle_obj.split()
            
         
         
